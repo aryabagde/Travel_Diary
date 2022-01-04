@@ -1,0 +1,197 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #a7a8a4;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 10% 3% 10% 0%;
+  font-size: 30px;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url("..\\images\\travel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 5% 5% 5%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #c5a78b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #95775e;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-image: url("..\\images\\sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  /* background-color: #ef8172; */
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Trips */
+
+#trips {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.trips-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Newsletter */
+
+.newsletter .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+  margin: 50px;
+  }
+.newsletter .form-control:focus {
+  box-shadow: none;
+  border: 2px solid #6a696d;
+  }
+.newsletter .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #6a696d;
+  color: #fff;
+  font-weight:600;
+  margin: 50px;
+  }
