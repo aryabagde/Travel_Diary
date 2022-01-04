@@ -12,3 +12,4 @@
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
 
 ### Currently a single Page Website, target for converting it into a multi-page website
+### Suggestions are most welcomed!
