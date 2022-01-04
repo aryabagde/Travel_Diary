@@ -1,7 +1,7 @@
 # **Travel Diary**
 <br />
 
-> If you want to travel wthout any worry the you have landed on the correct site
+## > If you want to travel wthout any worry the you have landed on the correct site
 
 ### Link- https://aryabagde.github.io/Travel_Diary/
 
